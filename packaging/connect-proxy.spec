@@ -8,7 +8,7 @@ Summary:        SSH Proxy command helper
 Group:          Applications/System
 License:        GPLv2+
 URL:            http://www.taiyo.co.jp/~gotoh/ssh/connect.html
-Source0: %{name}-%{version}.tar.gz
+Source0: %{name}-%{version}.orig.tar.gz
 #Source0:        connect-%{version}.c
 # Real source listed below, it was renamed for sanity's sake
 #Source0:        http://www.taiyo.co.jp/~gotoh/ssh/connect.c
