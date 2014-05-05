@@ -1,7 +1,7 @@
 #file: connect-proxy.spec
 
 Name:           connect-proxy
-Version:        0.0.0
+Version : 1.101
 Release:        5%{?dist}
 Summary:        SSH Proxy command helper
 
