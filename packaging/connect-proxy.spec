@@ -2,7 +2,7 @@
 
 Name:           connect-proxy
 Version : 1.101
-Release:        5%{?dist}
+Release:        0%{?dist}
 Summary:        SSH Proxy command helper
 
 Group:          Applications/System
@@ -33,14 +33,7 @@ Features of connect-proxy are:
     * You can also relay local socket stream instead of standard I/O.
 
 %prep
-#zcat $RPM_SOURCE_DIR/%{SOURCE0} | tar -xvf -
-
-#setup -q -T -c -n %{name}-%{version}
-%setup -q -n %{SOURCE0}
-
-#cp %{SOURCE0} connect.c
-#cp %{SOURCE1} .
-#%patch0 -p1
+%setup -q
 
 %build
 make CFLAGS="$RPM_OPT_FLAGS" %{?_smp_mflags}
